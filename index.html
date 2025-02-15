@@ -10,7 +10,7 @@
     <pre id="json-display"></pre>
 
     <script>
-        fetch('data.json') // Change 'data.json' to your actual JSON file name
+        fetch('portfolio.json')
             .then(response => response.json())
             .then(data => {
                 document.getElementById('json-display').textContent = JSON.stringify(data, null, 2);
