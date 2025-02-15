@@ -1,0 +1,63 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@scenes/*": [
+        "./src/app/scenes/*"
+      ],
+      "@components/*": [
+        "./src/components/*"
+      ],
+      "@public/*": [
+        "./public/*"
+      ],
+      "@assets/*": [
+        "./src/assets/*"
+      ],
+      "@portfolio": [
+        "./src/portfolio.json"
+      ],
+      "@typess/*": [
+        "./src/types/*"
+      ],
+      "@schemas/*": [
+        "./src/schemas/*"
+      ],
+      "@scripts/*": [
+        "./src/scripts/*"
+      ]
+    }
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "types/**/*.d.ts",
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

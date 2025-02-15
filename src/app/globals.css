@@ -1,0 +1,107 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  width: 100%;
+  min-height: 100%;
+  overflow-x: hidden;
+}
+
+:root {
+  --backgroud: white;
+
+  --primary-blue: #3B82F6;
+  --secondary-blue: #1E3A8A;
+
+  --green: #22C55E;
+  --error: #b91c1c;
+  
+  --50: #FAFAFA;
+  --100: #F4F4F5;
+  --200: #E4E4E7;
+  --300: #D4D4D8;
+  --400: #A1A1AA;
+  --500: #71717A;
+  --600: #52525B;
+  --700: #3F3F46;
+  --800: #27272A;
+  --900: #18181B;
+  --950: #09090B;
+
+  --box-shadow: 0px 0px 14px black;
+  --box-shadow-little: 0px 0px 14px #0000004D;
+  --box-shadow-blue: 0px 0px 14px var(--secondary-blue);
+
+  --layer-gradient: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0) 50%);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --950: #FAFAFA;
+    --900: #F4F4F5;
+    --800: #E4E4E7;
+    --700: #D4D4D8;
+    --600: #A1A1AA;
+    --500: #71717A;
+    --400: #52525B;
+    --300: #3F3F46;
+    --200: #27272A;
+    --100: #18181B;
+    --50: #09090B;
+
+    --backgroud: black;
+  }
+}
+
+body {
+  background: var(--backgroud);
+}
+
+textarea {
+  overflow-y: scroll;
+  transition: opacity 0.3s ease-out;
+  scroll-behavior: smooth;
+}
+
+textarea::-webkit-scrollbar {
+  width: 5px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+textarea::-webkit-scrollbar-track {
+  border-radius: 100vh;
+  background: transparent;
+  transition: background-color 0.3s ease;
+}
+
+textarea::-webkit-scrollbar-thumb {
+  border-radius: 100vh;
+  transition: background 0.3s ease, width 0.3s ease;
+  cursor: default;
+}
+
+textarea:hover::-webkit-scrollbar {
+  background: transparent;
+  opacity: 1;
+}
+
+textarea:hover::-webkit-scrollbar-thumb {
+  background: var(--300);
+  width: 8px;
+}
+
+#background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("../../public/pattern.webp") no-repeat center center;
+  background-size: cover;
+  z-index: -1;
+  opacity: 0.075;
+  pointer-events: none;
+  will-change: transform; 
+}
