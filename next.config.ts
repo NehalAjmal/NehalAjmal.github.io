@@ -4,7 +4,7 @@ const nextConfig: NextConfig = {
   images: {
     formats: ['image/webp'],
   },
-  output: 'export', // Ensure the output is set to 'export'
+  output: 'export',
 }
 
 export default nextConfig
