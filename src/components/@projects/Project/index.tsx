@@ -30,7 +30,7 @@ function Project({ closeProject, project }: ProjectProps) {
         lenis.start()
       }
     }
-  }, [lenis])
+  }, [ lenis ])
 
   useGSAP(() => {
     if (!containerRef.current) return
