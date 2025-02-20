@@ -51,7 +51,7 @@ function Project({ closeProject, project }: ProjectProps) {
         <X className="size-full text-error" />
       </span>
 
-      <span className="flex size-full flex-col items-center justify-between gap-4 overflow-scroll p-2 sm:gap-6 sm: p-3 md:flex-row md:gap-8 md:p-4 lg:gap-10 lg:p-5">
+      <span className="flex size-full flex-col items-center justify-between gap-4 overflow-scroll p-2 sm:gap-6 sm:p-3 md:flex-row md:gap-8 md:p-4 lg:gap-10 lg:p-5">
         <ProjectContent project={project} />
         <div className="relative flex flex-1 select-none items-center justify-center overflow-hidden rounded-xl object-cover shadow-shadow">
           <Image
