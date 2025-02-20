@@ -1,11 +1,3 @@
-"scripts": {
-  "dev": "next dev",
-  "build": "next build",
-  "start": "next start",
-  "lint": "next lint",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d out"
-}
 {
   "name": "Nehal Ajmal",
   "role": "web developer",
@@ -88,189 +80,105 @@
   ],
   "projects": [
     {
-      "title": "chatt.on",
+      "title": "Personal Portfolio Website",
       "description": [
-        "A chat application with real-time communication between users, containing private messages and group chats.",
-        "The main objective is to provide an interactive environment so that users can connect and communicate on different topics of interest."
+        "A personal portfolio website built to showcase my skills, projects, and professional experience.",
+        "Features include dynamic content powered by JSON, interactive animations using GSAP, and responsive design with Tailwind CSS."
       ],
-      "image": "chatt.on.webp",
+      "image": "portfolio.webp",
       "techs": [
         {
-          "name": "JavaScript",
-          "icon": "SiJavascript"
+          "name": "TypeScript",
+          "icon": "SiTypescript"
         },
         {
           "name": "React",
           "icon": "SiReact"
         },
         {
+          "name": "Next.js",
+          "icon": "SiNextdotjs"
+        },
+        {
           "name": "Tailwind CSS",
           "icon": "SiTailwindcss"
         },
         {
-          "name": "Node.js",
-          "icon": "SiNodedotjs"
-        },
-        {
-          "name": "Fastify",
-          "icon": "SiFastify"
-        },
-        {
-          "name": "Prisma",
-          "icon": "SiPrisma"
-        },
-        {
-          "name": "MySQL",
-          "icon": "SiMysql"
-        },
-        {
-          "name": "Git",
-          "icon": "SiGit"
-        },
-        {
-          "name": "Docker",
-          "icon": "SiDocker"
-        },
-        {
-          "name": "Nginx",
-          "icon": "SiNginx"
+          "name": "GSAP",
+          "icon": "SiGreensock"
         }
       ],
       "date": {
-        "from": "03/2024",
+        "from": "08/2024",
         "to": "present"
       },
       "features": [
-        "Account creation and authentication",
-        "Participation in group conversations in rooms",
-        "\"Whisper\" option for private conversations",
-        "User profiles with information editing",
-        "Switch between light and dark theme",
-        "Exclusive administration page",
-        "Management of permissions, roles, themes, and chats"
+        "Dynamic content powered by JSON",
+        "Interactive animations using GSAP",
+        "Responsive and modular design with Tailwind CSS",
+        "SEO optimization with Next.js",
+        "Contact form with email sending functionality"
       ],
-      "note": "is in BETA version",
+      "note": "This project is a showcase of my web development skills.",
       "demo": {
-        "repository": "https://github.com/ericzardo/chatt.on",
-        "preview": "https://chat.mentesmart.com.br/"
+        "repository": "https://github.com/NehalAjmal/portfolio",
+        "preview": "https://nehalajmal.com"
       }
     },
     {
-      "title": "plann.er",
+      "title": "PlantDox: AI-Powered Plant Identification and Disease Detection",
       "description": [
-        "An intuitive app for planning trips and organizing travel details.",
-        "Select travel dates and destination, add attendees, and manage activities efficiently."
+        "PlantDox is an AI-driven platform for plant identification, disease identification, and smart gardening assistance.",
+        "It uses deep learning models to identify plant species, diagnose diseases, and provide treatment recommendations.",
+        "Features include QR code-based report storage, weather-based disease alerts, and community disease reporting."
       ],
-      "image": "plann.er.webp",
+      "image": "plantdox.webp",
       "techs": [
         {
-          "name": "TypeScript",
-          "icon": "SiTypescript"
+          "name": "Python",
+          "icon": "SiPython"
         },
         {
-          "name": "React",
-          "icon": "SiReact"
+          "name": "Flask/Django",
+          "icon": "SiFlask"
         },
         {
-          "name": "Tailwind CSS",
-          "icon": "SiTailwindcss"
-        }
-      ],
-      "date": {
-        "from": "07/2024",
-        "to": null
-      },
-      "features": [
-        "Select travel dates and destinations.",
-        "Add participants and send invitations.",
-        "Organize and plan daily activities.",
-        "Allow participants to confirm attendance to the trip.",
-        "Save and manage essential trip-related links."
-      ],
-      "note": "developed in a course",
-      "demo": {
-        "repository": "https://github.com/ericzardo/plann.er",
-        "preview": null
-      }
-    },
-    {
-      "title": "Routine App",
-      "description": [
-        "Personal project developed with the goal of improving my daily personal activities.",
-        "It had alarm and document management features."
-      ],
-      "image": "routine.app.webp",
-      "techs": [
-        {
-          "name": "Node.js",
-          "icon": "SiNodedotjs"
+          "name": "Angular",
+          "icon": "SiAngular"
         },
         {
-          "name": "TypeScript",
-          "icon": "SiTypescript"
+          "name": "TensorFlow/Keras",
+          "icon": "SiTensorflow"
         },
         {
-          "name": "ReactNative",
-          "icon": "SiReact"
+          "name": "MongoDB/PostgreSQL",
+          "icon": "SiMongodb"
         },
         {
-          "name": "Tailwind CSS",
-          "icon": "SiTailwindcss"
+          "name": "QR Code Technology",
+          "icon": "SiQrcode"
         },
         {
-          "name": "Fastify",
-          "icon": "SiFastify"
-        },
-        {
-          "name": "MySQL",
-          "icon": "SiMysql"
-        }
-      ],
-      "date": {
-        "from": "09/2024",
-        "to": "10/2024"
-      },
-      "features": [
-        "Account creation and authentication",
-        "Create and manage user profiles",
-        "Customize alarms: create, edit, delete and toggle activation",
-        "Organize documents: create and move files between profiles & folders.",
-        "Switch between light and dark theme"
-      ],
-      "note": "not finished",
-      "demo": {
-        "repository": "https://github.com/ericzardo/routine-app",
-        "preview": null
-      }
-    },
-    {
-      "title": "Ebook LP",
-      "description": [
-        "The project aimed to create an attractive and functional landing page for the 'Mergulhe nas Profundezas do Conhecimento (Dive into the Depths of Knowledge)' e-book",
-        "Its primary goal was to effectively communicate the essence of the e-book and persuade visitors to take action."
-      ],
-      "image": "ebook.lp.webp",
-      "techs": [
-        {
-          "name": "JavaScript",
-          "icon": "SiJavascript"
-        },
-        {
-          "name": "HTML",
-          "icon": "SiHtml5"
-        },
-        {
-          "name": "CSS",
-          "icon": "SiCss3"
+          "name": "Weather API",
+          "icon": "SiWeatherapi"
         }
       ],
       "date": {
         "from": "01/2024",
-        "to": "04/2024"
+        "to": "present"
       },
+      "features": [
+        "AI-powered plant identification and disease detection",
+        "Disease severity analysis and treatment recommendations",
+        "QR code-based report storage and retrieval",
+        "Weather-based disease alerts",
+        "Community disease reporting and tracking",
+        "Smart gardening support with growth monitoring and guides"
+      ],
+      "note": "PlantDox is designed for both agriculture and home gardening, leveraging AI for optimal plant health.",
       "demo": {
-        "repository": "https://github.com/ericzardo/mentesmart-lp",
-        "preview": "https://mentesmart.com.br/"
+        "repository": "https://github.com/NehalAjmal/PlantDox",
+        "preview": "https://plantdox.com"
       }
     }
   ],
