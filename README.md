@@ -52,4 +52,4 @@ To get a local copy of the project up and running, follow these simple steps.
 
 ## Demo
 
-You can check out the live demo of the project here: [Preview](website to add)
+You can check out the live demo of the project here: [Preview] (https://nehalajmal.github.io)
