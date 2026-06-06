@@ -224,6 +224,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    text-align: center;
     padding: 0 10%;
     position: relative;
     padding-top: 100px;
@@ -269,12 +271,12 @@ body {
 .hero p {
     font-size: 1.25rem;
     color: var(--text-secondary);
-    margin-bottom: 3rem;
+    margin: 0 auto 3rem auto;
     max-width: 600px;
     font-weight: 300;
 }
 
-.hero-buttons { display: flex; gap: 1.5rem; align-items: center; }
+.hero-buttons { display: flex; gap: 1.5rem; justify-content: center; align-items: center; }
 
 .btn {
     padding: 1rem 2.2rem;
