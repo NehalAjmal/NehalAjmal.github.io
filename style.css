@@ -251,12 +251,12 @@ body {
     justify-content: center;
     align-items: center;
     z-index: 2;
-    max-width: 450px;
+    max-width: 500px;
 }
 
 .hero-image img {
     width: 100%;
-    max-width: 350px;
+    max-width: 500px;
     aspect-ratio: 1;
     object-fit: cover;
     object-position: center 15%; /* Ensures top of head is not cropped */
