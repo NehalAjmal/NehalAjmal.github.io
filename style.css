@@ -118,16 +118,22 @@ body {
 /* Navigation */
 .navbar {
     position: fixed;
-    top: 0;
-    width: 100%;
-    padding: 1.5rem 5%;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 95%;
+    max-width: 1200px;
+    padding: 1rem 3%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 1000;
-    background: rgba(7, 9, 19, 0.7);
-    backdrop-filter: blur(15px);
-    border-bottom: 1px solid var(--card-border);
+    background: rgba(10, 15, 30, 0.6);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(0, 242, 254, 0.15);
+    border-radius: 50px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5), inset 0 0 20px rgba(0, 242, 254, 0.05);
 }
 
 .logo {
@@ -263,7 +269,7 @@ body {
     border-radius: 40px; /* soft rounded rectangle instead of circle */
     border: 3px solid rgba(0, 242, 254, 0.3);
     box-shadow: 0 0 40px rgba(0, 242, 254, 0.15);
-    filter: grayscale(100%) contrast(1.1) brightness(0.9);
+    filter: contrast(1.05);
     transition: all 0.5s ease;
     animation: floatImage 8s ease-in-out infinite;
     position: relative;
@@ -271,9 +277,10 @@ body {
 }
 
 .hero-image img:hover {
-    filter: grayscale(0%) contrast(1.0) brightness(1.0);
+    filter: contrast(1.1) brightness(1.1);
     border-color: rgba(0, 242, 254, 0.8);
-    box-shadow: 0 0 60px rgba(0, 242, 254, 0.3);
+    box-shadow: 0 0 60px rgba(0, 242, 254, 0.4);
+    transform: translateY(-5px);
 }
 
 @keyframes floatImage {
