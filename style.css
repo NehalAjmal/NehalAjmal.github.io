@@ -256,13 +256,24 @@ body {
 
 .hero-image img {
     width: 100%;
-    max-width: 400px;
-    filter: drop-shadow(0 0 20px rgba(0, 242, 254, 0.5)) 
-            drop-shadow(0 0 50px rgba(0, 242, 254, 0.2))
-            contrast(1.05) brightness(0.95);
-    animation: floatImage 6s ease-in-out infinite;
+    max-width: 350px;
+    aspect-ratio: 1;
+    object-fit: cover;
+    object-position: center 15%; /* Ensures top of head is not cropped */
+    border-radius: 50%;
+    border: 3px solid rgba(0, 242, 254, 0.3);
+    box-shadow: 0 0 40px rgba(0, 242, 254, 0.15);
+    filter: grayscale(100%) contrast(1.1) brightness(0.9);
+    transition: all 0.5s ease;
+    animation: floatImage 8s ease-in-out infinite;
     position: relative;
     z-index: 5;
+}
+
+.hero-image img:hover {
+    filter: grayscale(0%) contrast(1.0) brightness(1.0);
+    border-color: rgba(0, 242, 254, 0.8);
+    box-shadow: 0 0 60px rgba(0, 242, 254, 0.3);
 }
 
 @keyframes floatImage {
