@@ -256,11 +256,11 @@ body {
 
 .hero-image img {
     width: 100%;
-    max-width: 500px;
-    aspect-ratio: 1;
+    max-width: 400px; /* slightly narrower since it's taller */
+    aspect-ratio: 3/4; /* vertical portrait ratio */
     object-fit: cover;
-    object-position: center 15%; /* Ensures top of head is not cropped */
-    border-radius: 50%;
+    object-position: center top; /* keep head near the top */
+    border-radius: 40px; /* soft rounded rectangle instead of circle */
     border: 3px solid rgba(0, 242, 254, 0.3);
     box-shadow: 0 0 40px rgba(0, 242, 254, 0.15);
     filter: grayscale(100%) contrast(1.1) brightness(0.9);
