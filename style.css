@@ -57,19 +57,18 @@ body {
     position: absolute;
     font-size: 8rem;
     color: rgba(255, 255, 255, 0.03);
-    animation: floatUp 25s infinite linear;
+    animation: floatUp infinite linear;
 }
-
-.l1 { left: 10%; animation-delay: 0s; font-size: 10rem; }
-.l2 { left: 80%; animation-delay: -5s; font-size: 6rem; }
-.l3 { left: 50%; animation-delay: -10s; font-size: 12rem; }
-.l4 { left: 30%; animation-delay: -15s; font-size: 7rem; }
-.l5 { left: 70%; animation-delay: -20s; font-size: 9rem; }
-.l6 { left: 20%; animation-delay: -2s; font-size: 8rem; }
-.l7 { left: 90%; animation-delay: -8s; font-size: 11rem; }
-.l8 { left: 40%; animation-delay: -14s; font-size: 5rem; }
-.l9 { left: 60%; animation-delay: -18s; font-size: 10rem; }
-.l10 { left: 15%; animation-delay: -23s; font-size: 7rem; }
+.l1 { left: 5%; animation-delay: 0s; animation-duration: 25s; font-size: 6rem; }
+.l2 { left: 18%; animation-delay: -12s; animation-duration: 28s; font-size: 4rem; }
+.l3 { left: 28%; animation-delay: -5s; animation-duration: 23s; font-size: 8rem; }
+.l4 { left: 40%; animation-delay: -18s; animation-duration: 26s; font-size: 5rem; }
+.l5 { left: 50%; animation-delay: -8s; animation-duration: 30s; font-size: 7rem; }
+.l6 { left: 60%; animation-delay: -21s; animation-duration: 24s; font-size: 4.5rem; }
+.l7 { left: 72%; animation-delay: -3s; animation-duration: 27s; font-size: 6.5rem; }
+.l8 { left: 82%; animation-delay: -15s; animation-duration: 22s; font-size: 5.5rem; }
+.l9 { left: 92%; animation-delay: -9s; animation-duration: 29s; font-size: 7.5rem; }
+.l10 { left: 12%; animation-delay: -23s; animation-duration: 25s; font-size: 5rem; }
 
 @keyframes float {
     0% { transform: translate(0, 0) rotate(0deg); }
