@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="120" fill="#0a0f1e"/>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="280" font-weight="900" dominant-baseline="central">
+    <text x="245" y="270" fill="#ffffff" text-anchor="end">N</text>
+    <text x="255" y="270" fill="#00f2fe" text-anchor="start">A</text>
+  </g>
+</svg>
