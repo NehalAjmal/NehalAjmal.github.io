@@ -389,7 +389,7 @@ section { padding: 120px 10%; position: relative; z-index: 2; }
 /* Skills Section */
 .skills-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 2rem;
 }
 
@@ -414,9 +414,9 @@ section { padding: 120px 10%; position: relative; z-index: 2; }
 .skill-tag {
     background: rgba(0, 242, 254, 0.05);
     color: var(--text-primary);
-    padding: 0.7rem 1.2rem;
+    padding: 0.6rem 1rem;
     border-radius: 12px;
-    font-size: 0.95rem;
+    font-size: 0.9rem;
     font-weight: 500;
     border: 1px solid rgba(0, 242, 254, 0.1);
     transition: all 0.3s;
