@@ -61,10 +61,10 @@ body {
 }
 
 .l1 { left: 10%; animation-delay: 0s; font-size: 10rem; }
-.l2 { left: 80%; animation-delay: 5s; font-size: 6rem; }
-.l3 { left: 50%; animation-delay: 12s; font-size: 12rem; }
-.l4 { left: 30%; animation-delay: 18s; font-size: 7rem; }
-.l5 { left: 70%; animation-delay: 22s; font-size: 9rem; }
+.l2 { left: 80%; animation-delay: -5s; font-size: 6rem; }
+.l3 { left: 50%; animation-delay: -12s; font-size: 12rem; }
+.l4 { left: 30%; animation-delay: -18s; font-size: 7rem; }
+.l5 { left: 70%; animation-delay: -22s; font-size: 9rem; }
 
 @keyframes float {
     0% { transform: translate(0, 0) rotate(0deg); }
