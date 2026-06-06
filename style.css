@@ -65,6 +65,11 @@ body {
 .l3 { left: 50%; animation-delay: -10s; font-size: 12rem; }
 .l4 { left: 30%; animation-delay: -15s; font-size: 7rem; }
 .l5 { left: 70%; animation-delay: -20s; font-size: 9rem; }
+.l6 { left: 20%; animation-delay: -2s; font-size: 8rem; }
+.l7 { left: 90%; animation-delay: -8s; font-size: 11rem; }
+.l8 { left: 40%; animation-delay: -14s; font-size: 5rem; }
+.l9 { left: 60%; animation-delay: -18s; font-size: 10rem; }
+.l10 { left: 15%; animation-delay: -23s; font-size: 7rem; }
 
 @keyframes float {
     0% { transform: translate(0, 0) rotate(0deg); }
