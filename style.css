@@ -296,6 +296,25 @@ body {
     letter-spacing: -1px;
 }
 
+.magic-underline {
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+}
+
+.magic-underline::after {
+    content: '';
+    position: absolute;
+    width: 105%;
+    height: 18px;
+    bottom: 5px;
+    left: -2%;
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 10' preserveAspectRatio='none'%3E%3Cpath d='M0 7 Q 25 2 50 5 T 100 5' stroke='%2300f2fe' stroke-width='3' fill='none' stroke-linecap='round'/%3E%3C/svg%3E") no-repeat center;
+    background-size: 100% 100%;
+    z-index: -1;
+    transform: rotate(-2deg);
+}
+
 .hero h2 {
     font-size: clamp(1.8rem, 3.5vw, 3rem);
     color: var(--text-primary);

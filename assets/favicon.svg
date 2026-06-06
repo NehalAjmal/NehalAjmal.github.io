@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <rect width="90" height="90" x="5" y="5" rx="15" fill="#11131a" stroke="#ffffff" stroke-width="4"/>
+  <!-- N -->
+  <path d="M 30 70 L 30 30 L 50 70 L 50 30" stroke="#ffffff" stroke-width="5" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+  <!-- A -->
+  <path d="M 45 70 L 60 30 L 75 70" stroke="#ffffff" stroke-width="5" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+  <!-- Red dash -->
+  <path d="M 55 58 L 68 58" stroke="#ff0044" stroke-width="6" stroke-linecap="round"/>
+</svg>
