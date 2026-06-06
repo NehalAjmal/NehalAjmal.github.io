@@ -74,7 +74,7 @@ body {
 
 @keyframes floatUp {
     0% { transform: translateY(120vh) rotate(0deg); }
-    100% { transform: translateY(-50vh) rotate(360deg); }
+    100% { transform: translateY(-60vh) rotate(360deg); }
 }
 
 /* Glassmorphism utility */
