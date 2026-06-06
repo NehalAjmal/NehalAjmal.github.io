@@ -218,13 +218,11 @@ body {
 .hero {
     min-height: 100vh;
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
     padding: 0 10%;
     position: relative;
     padding-top: 100px;
-    gap: 4rem;
 }
 
 .hero-badge {
@@ -239,30 +237,7 @@ body {
     margin-bottom: 1.5rem;
 }
 
-.hero-content { max-width: 600px; z-index: 2; flex: 1; }
-
-.hero-image {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 2;
-    max-width: 500px;
-}
-
-.hero-image img {
-    width: 100%;
-    border-radius: 20px;
-    filter: drop-shadow(0 10px 40px rgba(0, 242, 254, 0.4));
-    animation: floatImage 6s ease-in-out infinite;
-    mix-blend-mode: screen;
-}
-
-@keyframes floatImage {
-    0% { transform: translateY(0px); }
-    50% { transform: translateY(-15px); }
-    100% { transform: translateY(0px); }
-}
+.hero-content { max-width: 800px; z-index: 2; }
 
 .hero h1 {
     font-size: clamp(3.5rem, 6vw, 6rem);
@@ -568,14 +543,6 @@ footer {
 
 /* Responsive Design */
 @media (max-width: 900px) {
-    .hero {
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-        gap: 2rem;
-    }
-    .hero-buttons { justify-content: center; }
-    .hero-image { max-width: 400px; }
     .about-grid { grid-template-columns: 1fr; }
     .skills-grid { grid-template-columns: 1fr; }
 }
