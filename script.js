@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     // 1. Typing Effect for Hero Section
-    const textArray = ["AI Enthusiast", "Software Engineer", "Problem Solver"];
+    const textArray = ["AI Enthusiast", "Full-Stack Web Developer", "Problem Solver"];
     const typingDelay = 100;
     const erasingDelay = 50;
     const newTextDelay = 2000; // Delay between current and next text
